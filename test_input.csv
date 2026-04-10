@@ -1,0 +1,6 @@
+Activity,Value,Unit,Note
+electricity,48.2,MWh,Office_Q1
+diesel,340,liters,Fleet_March
+road freight,12500,tonne-km,Logistics
+$50000,50000,USD,Consulting_Cat1_Spend
+bad_data,not_a_number,unit,Should_be_quarantined

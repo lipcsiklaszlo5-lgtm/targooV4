@@ -1,0 +1,29 @@
+Targoo V2 Server running on 0.0.0.0:8080
+Staged file: /tmp/test_input.csv
+Starting processing run_id: d166bfce-b47f-4f98-b0a0-9bf119dbee18
+Processing file: /tmp/test_input.csv
+Parsed 20 rows
+Row: RawDataRow { source_file: "test_input.csv", row_index: 1, raw_header: "Activity", raw_value: "electricity" }, Mapping: true, Value: Err(NonNumericValue)
+Row: RawDataRow { source_file: "test_input.csv", row_index: 1, raw_header: "Value", raw_value: "48.2" }, Mapping: false, Value: Ok(48.2)
+Row: RawDataRow { source_file: "test_input.csv", row_index: 1, raw_header: "Unit", raw_value: "MWh" }, Mapping: true, Value: Err(NonNumericValue)
+Row: RawDataRow { source_file: "test_input.csv", row_index: 1, raw_header: "Note", raw_value: "Office_Q1" }, Mapping: true, Value: Ok(1.0)
+Row: RawDataRow { source_file: "test_input.csv", row_index: 2, raw_header: "Activity", raw_value: "diesel" }, Mapping: true, Value: Err(NonNumericValue)
+Row: RawDataRow { source_file: "test_input.csv", row_index: 2, raw_header: "Value", raw_value: "340" }, Mapping: false, Value: Ok(340.0)
+Row: RawDataRow { source_file: "test_input.csv", row_index: 2, raw_header: "Unit", raw_value: "liters" }, Mapping: false, Value: Err(NonNumericValue)
+Row: RawDataRow { source_file: "test_input.csv", row_index: 2, raw_header: "Note", raw_value: "Fleet_March" }, Mapping: false, Value: Err(NonNumericValue)
+Row: RawDataRow { source_file: "test_input.csv", row_index: 3, raw_header: "Activity", raw_value: "road freight" }, Mapping: true, Value: Err(NonNumericValue)
+Row: RawDataRow { source_file: "test_input.csv", row_index: 3, raw_header: "Value", raw_value: "12500" }, Mapping: false, Value: Ok(12500.0)
+Row: RawDataRow { source_file: "test_input.csv", row_index: 3, raw_header: "Unit", raw_value: "tonne-km" }, Mapping: false, Value: Err(NonNumericValue)
+Row: RawDataRow { source_file: "test_input.csv", row_index: 3, raw_header: "Note", raw_value: "Logistics" }, Mapping: true, Value: Err(NonNumericValue)
+Row: RawDataRow { source_file: "test_input.csv", row_index: 4, raw_header: "Activity", raw_value: "$50000" }, Mapping: false, Value: Ok(50000.0)
+Row: RawDataRow { source_file: "test_input.csv", row_index: 4, raw_header: "Value", raw_value: "50000" }, Mapping: false, Value: Ok(50000.0)
+Row: RawDataRow { source_file: "test_input.csv", row_index: 4, raw_header: "Unit", raw_value: "USD" }, Mapping: false, Value: Err(NonNumericValue)
+Row: RawDataRow { source_file: "test_input.csv", row_index: 4, raw_header: "Note", raw_value: "Consulting_Cat1_Spend" }, Mapping: true, Value: Ok(1.0)
+Row: RawDataRow { source_file: "test_input.csv", row_index: 5, raw_header: "Activity", raw_value: "bad_data" }, Mapping: false, Value: Err(NonNumericValue)
+Row: RawDataRow { source_file: "test_input.csv", row_index: 5, raw_header: "Value", raw_value: "not_a_number" }, Mapping: false, Value: Err(NonNumericValue)
+Row: RawDataRow { source_file: "test_input.csv", row_index: 5, raw_header: "Unit", raw_value: "unit" }, Mapping: false, Value: Err(NonNumericValue)
+Row: RawDataRow { source_file: "test_input.csv", row_index: 5, raw_header: "Note", raw_value: "Should_be_quarantined" }, Mapping: false, Value: Err(NonNumericValue)
+Starting aggregation for 2 rows
+Generating Fritz Package...
+Finalizing processing...
+ZIP generated, success!

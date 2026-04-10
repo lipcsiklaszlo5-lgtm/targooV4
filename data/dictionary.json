@@ -1,0 +1,379 @@
+[
+  {
+    "keywords": ["natural gas", "erdgas", "földgáz", "gas", "gáz", "gázfogyasztás", "heizgas", "gasverbrauch", "foldgaz"],
+    "ghg_category": "Scope1",
+    "scope3_id": null,
+    "canonical_unit": "m3"
+  },
+  {
+    "keywords": ["diesel", "gázolaj", "gazolaj", "pkw diesel", "fleet diesel", "gázolajfogyasztás", "dieselkraftstoff", "gépjármű dízel", "dizel", "üzemanyag dízel"],
+    "ghg_category": "Scope1",
+    "scope3_id": null,
+    "canonical_unit": "liter"
+  },
+  {
+    "keywords": ["petrol", "gasoline", "benzin", "motorbenzin", "e10", "super95", "unleaded", "ottokraftstoff", "bleifrei", "személyautó benzin", "benzinverbrauch"],
+    "ghg_category": "Scope1",
+    "scope3_id": null,
+    "canonical_unit": "liter"
+  },
+  {
+    "keywords": ["heating oil", "heizöl", "fűtőolaj", "extra könnyű fűtőolaj", "futoolaj", "heizöl extra leicht", "hel", "tüzelőolaj"],
+    "ghg_category": "Scope1",
+    "scope3_id": null,
+    "canonical_unit": "liter"
+  },
+  {
+    "keywords": ["lpg", "propán-bután", "pb gáz", "autogas", "flüssiggas", "propan", "butan", "pb-gáz", "pb gaz"],
+    "ghg_category": "Scope1",
+    "scope3_id": null,
+    "canonical_unit": "kg"
+  },
+  {
+    "keywords": ["cng", "compressed natural gas", "sűrített földgáz", "erdgas als kraftstoff", "cng-kraftstoff", "suritett foldgaz"],
+    "ghg_category": "Scope1",
+    "scope3_id": null,
+    "canonical_unit": "kg"
+  },
+  {
+    "keywords": ["r410a", "refrigerant r410a", "kältemittel r410a", "hűtőközeg r410a", "f-gas r410a", "klímagáz r410a"],
+    "ghg_category": "Scope1",
+    "scope3_id": null,
+    "canonical_unit": "kg"
+  },
+  {
+    "keywords": ["r134a", "refrigerant r134a", "kältemittel r134a", "hűtőközeg r134a", "f-gas r134a", "autóklíma gáz"],
+    "ghg_category": "Scope1",
+    "scope3_id": null,
+    "canonical_unit": "kg"
+  },
+  {
+    "keywords": ["r404a", "refrigerant r404a", "kältemittel r404a", "hűtőközeg r404a", "ipari hűtőközeg", "f-gas r404a"],
+    "ghg_category": "Scope1",
+    "scope3_id": null,
+    "canonical_unit": "kg"
+  },
+  {
+    "keywords": ["r32", "refrigerant r32", "kältemittel r32", "hűtőközeg r32", "f-gáz r32"],
+    "ghg_category": "Scope1",
+    "scope3_id": null,
+    "canonical_unit": "kg"
+  },
+  {
+    "keywords": ["electricity", "strom", "áram", "power", "grid consumption", "villany", "kwh", "mwh", "stromverbrauch", "energy usage", "hálózati villamos energia", "villamosenergia", "aram"],
+    "ghg_category": "Scope2",
+    "scope3_id": null,
+    "canonical_unit": "kwh"
+  },
+  {
+    "keywords": ["green electricity", "ökostrom", "zöldáram", "zöld áram", "renewable power", "megújuló energia", "grüner strom", "zold energia", "go", "guarantees of origin"],
+    "ghg_category": "Scope2",
+    "scope3_id": null,
+    "canonical_unit": "kwh"
+  },
+  {
+    "keywords": ["off-peak electricity", "völgyidőszak", "niedertarifstrom", "éjszakai áram", "nachtstrom", "csúcsidejű kívüli áram"],
+    "ghg_category": "Scope2",
+    "scope3_id": null,
+    "canonical_unit": "kwh"
+  },
+  {
+    "keywords": ["district heating", "fernwärme", "távhő", "távfűtés", "fűtési energia", "tavho", "wärmebezug", "purchased heating"],
+    "ghg_category": "Scope2",
+    "scope3_id": null,
+    "canonical_unit": "kwh"
+  },
+  {
+    "keywords": ["steam", "dampf", "gőz", "vásárolt gőz", "goz", "prozessdampf", "purchased steam"],
+    "ghg_category": "Scope2",
+    "scope3_id": null,
+    "canonical_unit": "kwh"
+  },
+  {
+    "keywords": ["district cooling", "fernkälte", "távhűtés", "hűtési energia", "tavhutes", "purchased cooling"],
+    "ghg_category": "Scope2",
+    "scope3_id": null,
+    "canonical_unit": "kwh"
+  },
+  {
+    "keywords": ["road freight", "lkw", "kamion", "teherautó", "fuvardíj", "freight forwarder", "road transport", "strassentransport", "güterverkehr", "közúti áruszállítás", "szállítmányozás", "spedition"],
+    "ghg_category": "Scope3",
+    "scope3_id": 4,
+    "canonical_unit": "tonne-km"
+  },
+  {
+    "keywords": ["sea freight", "ocean freight", "seefracht", "tengeri fuvardíj", "hajózás", "hajófuvar", "schifffahrt", "tengeri szállítmányozás"],
+    "ghg_category": "Scope3",
+    "scope3_id": 4,
+    "canonical_unit": "tonne-km"
+  },
+  {
+    "keywords": ["air freight", "luftfracht", "légi áru", "légi szállítás", "air cargo", "legi fuvardij", "légi teher"],
+    "ghg_category": "Scope3",
+    "scope3_id": 4,
+    "canonical_unit": "tonne-km"
+  },
+  {
+    "keywords": ["rail freight", "bahnfracht", "vasúti szállítás", "vagon", "schienengüterverkehr", "vonatos áruszállítás", "vasuti fuvar"],
+    "ghg_category": "Scope3",
+    "scope3_id": 4,
+    "canonical_unit": "tonne-km"
+  },
+  {
+    "keywords": ["courier", "paketversand", "futár", "csomagszállítás", "cep", "paketdienst", "csomagküldés", "parcel delivery"],
+    "ghg_category": "Scope3",
+    "scope3_id": 4,
+    "canonical_unit": "kg"
+  },
+  {
+    "keywords": ["last-mile delivery", "letzte meile", "kiszállítás", "házhozszállítás", "lokaler transport", "futárszolgálat autóval"],
+    "ghg_category": "Scope3",
+    "scope3_id": 9,
+    "canonical_unit": "km"
+  },
+  {
+    "keywords": ["short haul flight", "kurzstreckenflug", "repülőjegy rövid", "flight", "flugzeug", "repülő", "repules", "domestic flight", "inlandsflug", "belföldi repülés"],
+    "ghg_category": "Scope3",
+    "scope3_id": 6,
+    "canonical_unit": "km"
+  },
+  {
+    "keywords": ["long haul flight", "langstreckenflug", "repülőjegy hosszú", "intercontinental flight", "transatlantikflug", "hosszútávú repülés", "tengerentúli repülőjegy"],
+    "ghg_category": "Scope3",
+    "scope3_id": 6,
+    "canonical_unit": "km"
+  },
+  {
+    "keywords": ["train ticket", "zugticket", "vonatjegy", "bahnfahrt", "rail travel", "ic", "ice", "üzleti út vonat", "geschaeftsreise bahn", "vasúti utazás"],
+    "ghg_category": "Scope3",
+    "scope3_id": 6,
+    "canonical_unit": "km"
+  },
+  {
+    "keywords": ["taxi", "cab", "uber", "bolt", "taxifahrt", "taxiköltség", "taxi expense", "főtaxi", "személyszállítás"],
+    "ghg_category": "Scope3",
+    "scope3_id": 6,
+    "canonical_unit": "km"
+  },
+  {
+    "keywords": ["hotel stay", "hotelübernachtung", "szállás", "hotel éjszaka", "vendégéjszaka", "hotel", "szállodai szoba", "accommodation", "übernachtung"],
+    "ghg_category": "Scope3",
+    "scope3_id": 6,
+    "canonical_unit": "night"
+  },
+  {
+    "keywords": ["rental car", "mietwagen", "bérautó", "autóbérlés", "car rental", "leihwagen"],
+    "ghg_category": "Scope3",
+    "scope3_id": 6,
+    "canonical_unit": "km"
+  },
+  {
+    "keywords": ["bus travel", "busfahrt", "busz", "távolsági busz", "coach", "linienbus", "autóbusz", "buszjegy"],
+    "ghg_category": "Scope3",
+    "scope3_id": 6,
+    "canonical_unit": "km"
+  },
+  {
+    "keywords": ["landfill", "deponie", "lerakó", "kommunális hulladék", "restmüll", "szemét", "vegyes hulladék", "general waste", "szemétdíj"],
+    "ghg_category": "Scope3",
+    "scope3_id": 5,
+    "canonical_unit": "kg"
+  },
+  {
+    "keywords": ["incineration", "verbrennung", "égetés", "hulladékégető", "waste-to-energy", "thermische verwertung"],
+    "ghg_category": "Scope3",
+    "scope3_id": 5,
+    "canonical_unit": "kg"
+  },
+  {
+    "keywords": ["recycling", "újrahasznosítás", "szelektív", "paper recycling", "altpapier", "wertstoffe", "szelektív hulladék", "papír hulladék", "recyclingabfall"],
+    "ghg_category": "Scope3",
+    "scope3_id": 5,
+    "canonical_unit": "kg"
+  },
+  {
+    "keywords": ["plastic waste", "kunststoffabfall", "műanyag hulladék", "pet", "plastik", "muanyag"],
+    "ghg_category": "Scope3",
+    "scope3_id": 5,
+    "canonical_unit": "kg"
+  },
+  {
+    "keywords": ["hazardous waste", "sondermüll", "veszélyes hulladék", "gefährliche abfälle", "elektronikai hulladék", "e-waste", "veszelyes"],
+    "ghg_category": "Scope3",
+    "scope3_id": 5,
+    "canonical_unit": "kg"
+  },
+  {
+    "keywords": ["wastewater", "abwasser", "szennyvíz", "csatornadíj", "szennyvízkezelés", "abwasserbehandlung", "effluent"],
+    "ghg_category": "Scope3",
+    "scope3_id": 5,
+    "canonical_unit": "m3"
+  },
+  {
+    "keywords": ["water consumption", "wasser", "wasserverbrauch", "víz", "vízfogyasztás", "csapvíz", "ivóvíz", "vezetékes víz", "trinkwasser", "water usage", "viz", "vizfogyasztas"],
+    "ghg_category": "Scope3",
+    "scope3_id": 1,
+    "canonical_unit": "m3"
+  },
+  {
+    "keywords": ["paper", "papier", "papír", "irodai papír", "a4", "copy paper", "kopierpapier", "nyomtatópapír", "druckerpapier", "papir"],
+    "ghg_category": "Scope3",
+    "scope3_id": 1,
+    "canonical_unit": "kg"
+  },
+  {
+    "keywords": ["office supplies", "büromaterial", "irodaszer", "stationery", "irodai eszközök", "bürobedarf"],
+    "ghg_category": "Scope3",
+    "scope3_id": 1,
+    "canonical_unit": "usd"
+  },
+  {
+    "keywords": ["steel", "stahl", "acél", "betonstahl", "acélbeszerzés", "konstruktionsstahl", "steel procurement", "acel"],
+    "ghg_category": "Scope3",
+    "scope3_id": 1,
+    "canonical_unit": "kg"
+  },
+  {
+    "keywords": ["concrete", "beton", "zement", "cement", "készbeton", "transportbeton", "ready-mix concrete"],
+    "ghg_category": "Scope3",
+    "scope3_id": 1,
+    "canonical_unit": "kg"
+  },
+  {
+    "keywords": ["it hardware", "laptop", "computer", "edv-geräte", "it eszközök", "számítógép beszerzés", "notebooks", "elektronik", "it equipment"],
+    "ghg_category": "Scope3",
+    "scope3_id": 1,
+    "canonical_unit": "usd"
+  },
+  {
+    "keywords": ["cloud services", "szerverköltség", "cloud computing", "server hosting", "felhőszolgáltatás", "aws", "azure", "rechenzentrum"],
+    "ghg_category": "Scope3",
+    "scope3_id": 1,
+    "canonical_unit": "usd"
+  },
+  {
+    "keywords": ["employee commuting", "pendeln", "munkábajárás", "commuting", "arbeitsweg", "bejárás támogatás", "bérlettámogatás"],
+    "ghg_category": "Scope3",
+    "scope3_id": 7,
+    "canonical_unit": "km"
+  },
+  {
+    "keywords": ["home office", "teleworking", "távmunka", "mobiles arbeiten", "otthoni munkavégzés", "homeoffice", "remote work"],
+    "ghg_category": "Scope3",
+    "scope3_id": 7,
+    "canonical_unit": "kwh"
+  },
+  {
+    "keywords": ["wood pellets", "holzpellets", "fapellet", "biomass", "biomassza", "tűzifa", "brennholz", "wood chips"],
+    "ghg_category": "Scope1",
+    "scope3_id": null,
+    "canonical_unit": "kg"
+  },
+  {
+    "keywords": [
+      "hrc", "hot rolled coil", "melegen hengerelt tekercs", "warmgewalztes band", 
+      "billet", "knüppel", "buga", "rebar", "betonacél", "betonstahl", 
+      "scrap", "fémhulladék", "stahlschrott", "pig iron", "nyersvas", "roheisen", 
+      "aluminium ingot", "alumínium tömb", "aluminiumbarren", "copper wire", 
+      "rézhuzal", "kupferdraht", "stainless steel", "rozsdamentes acél", "edelstahl", 
+      "v2a", "v4a", "ötvözet", "alloy", "legierung", "steel", "stahl", "acél"
+    ],
+    "ghg_category": "Scope3",
+    "scope3_id": 1,
+    "canonical_unit": "kg"
+  },
+  {
+    "keywords": [
+      "granulátum", "granulate", "granulat", "pp", "polypropylene", "polipropilén", 
+      "hdpe", "pet", "pvc", "resin", "gyanta", "harz", "vegyszer", "chemical", 
+      "chemikalie", "oldószer", "solvent", "lösungsmittel", "fertilizer", "műtrágya", 
+      "düngemittel", "ammónia", "ammonia", "ammoniak", "methanol", "metanol", 
+      "etilén", "ethylene", "ethylen", "műanyag", "plastic", "kunststoff"
+    ],
+    "ghg_category": "Scope3",
+    "scope3_id": 1,
+    "canonical_unit": "kg"
+  },
+  {
+    "keywords": [
+      "livestock", "állatállomány", "nutztiere", "műtrágyázás", "fertilizer application", 
+      "düngung", "n2o emisszió", "n2o emissions", "lachgasemissionen", "manure management", 
+      "trágyakezelés", "güllemanagement", "haszonállat", "mezőgazdasági kibocsátás"
+    ],
+    "ghg_category": "Scope1",
+    "scope3_id": null,
+    "canonical_unit": "kg"
+  },
+  {
+    "keywords": [
+      "feed", "takarmány", "futtermittel", "grain", "búza", "wheat", "weizen", 
+      "kukorica", "corn", "maize", "mais", "pesticide", "növényvédő szer", 
+      "pestizid", "vetőmag", "seed", "saatgut", "dairy", "tejtermék", "molkereiprodukte", 
+      "húsfeldolgozás", "meat processing", "fleischverarbeitung", "élelmiszer alapanyag"
+    ],
+    "ghg_category": "Scope3",
+    "scope3_id": 1,
+    "canonical_unit": "kg"
+  },
+  {
+    "keywords": [
+      "timber", "fűrészáru", "schnittholz", "lumber", "faanyag", "mdf", "forgácslap", 
+      "spanplatte", "chipboard", "pulp", "cellulóz", "cellulose", "zellstoff", 
+      "karton", "cardboard", "kartonpapier", "corrugated board", "hullámkarton", 
+      "wellpappe", "raklap", "pallet", "europallet", "palette", "europalette", 
+      "faáru", "holzprodukte", "paperboard"
+    ],
+    "ghg_category": "Scope3",
+    "scope3_id": 1,
+    "canonical_unit": "kg"
+  },
+  {
+    "keywords": [
+      "tier-1 components", "alváz", "chassis", "fahrgestell", "engine parts", 
+      "motoralkatrész", "motorteile", "akkumulátor cella", "li-ion battery", 
+      "lithium-ionen batterie", "gumiabroncs", "tyre", "tire", "reifen", 
+      "autóalkatrész", "car parts", "autoteile", "oem parts", "automotive parts", 
+      "fahrzeugteile", "járműalkatrész"
+    ],
+    "ghg_category": "Scope3",
+    "scope3_id": 1,
+    "canonical_unit": "kg"
+  },
+  {
+    "keywords": [
+      "vehicle use", "gépjármű használat", "fahrzeugnutzung", "sold vehicle emissions", 
+      "eladott autók kibocsátása", "pkw-nutzung", "lifetime emissions", "élettartam kibocsátás", 
+      "lebenszyklusemissionen", "tailpipe emissions", "kipufogógáz kibocsátás", 
+      "auspuffemissionen", "use of sold products", "eladott termékek használata"
+    ],
+    "ghg_category": "Scope3",
+    "scope3_id": 11,
+    "canonical_unit": "km"
+  },
+  {
+    "keywords": [
+      "audit fees", "könyvvizsgálati díj", "prüfungsgebühren", "it services", 
+      "it szolgáltatások", "it-dienstleistungen", "cloud hosting", "aws", "azure", 
+      "felhőszolgáltatás", "cloud-dienste", "marketing", "werbung", "consulting", 
+      "tanácsadás", "beratung", "jogi díjak", "legal fees", "anwaltskosten", 
+      "biztosítás", "insurance", "versicherung", "telekommunikáció", "telecommunication", 
+      "telekommunikation", "szoftver licenc", "software license", "softwarelizenz", 
+      "eeio spend", "szolgáltatás beszerzés"
+    ],
+    "ghg_category": "Scope3",
+    "scope3_id": 1,
+    "canonical_unit": "usd"
+  },
+  {
+    "keywords": [
+      "cement", "zement", "beton", "concrete", "ready-mix", "transzportbeton", 
+      "transportbeton", "mész", "lime", "kalk", "tégla", "brick", "ziegel", 
+      "szigetelés", "insulation", "dämmung", "mineral wool", "kőzetgyapot", 
+      "mineralwolle", "üveg", "glass", "glas", "építőanyag", "building materials", 
+      "baumaterialien", "construction materials"
+    ],
+    "ghg_category": "Scope3",
+    "scope3_id": 1,
+    "canonical_unit": "kg"
+  }
+]
